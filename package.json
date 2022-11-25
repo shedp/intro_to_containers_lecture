@@ -1,0 +1,24 @@
+{
+  "name": "intro_to_containers",
+  "version": "1.0.0",
+  "description": "Intro to containers lecture demo ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaireCullimore/intro_to_containers_lecture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClaireCullimore/intro_to_containers_lecture/issues"
+  },
+  "homepage": "https://github.com/ClaireCullimore/intro_to_containers_lecture#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
