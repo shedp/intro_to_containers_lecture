@@ -15,3 +15,8 @@
     - `npm run dev`
 
 ## To start the container 
+1. Navigate to the directory you would like to mount
+2. You can run the dev-container script as it has already installed
+    `npm run dev-container`
+3. start the containtainer docker with a specified container name, and bind mount the current directory to a `code` file on the node:latest image
+    `docker run -it -p 3000:3000 --name <containter name> --mount type=bind,src="$(pwd)",dst=/code node:latest /bin/bash`
